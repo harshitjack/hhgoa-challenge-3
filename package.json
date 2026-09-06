@@ -1,0 +1,22 @@
+{
+  "name": "hhgoa-facereco-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HH Goa 2026 Shortlisting Task 3 - Face Identification & Blockchain Verification Full Stack",
+  "scripts": {
+    "start": "npm run start --prefix backend",
+    "backend": "npm run dev --prefix backend",
+    "frontend": "npm run dev --prefix frontend",
+    "build:frontend": "npm run build --prefix frontend",
+    "test:backend": "npm run test --prefix backend",
+    "test:contract": "npm run test:contract --prefix backend"
+  },
+  "keywords": [
+    "hhgoa-2026",
+    "face-verification",
+    "blockchain",
+    "polygon-amoy"
+  ],
+  "author": "HH Goa 2026 Candidate",
+  "license": "ISC"
+}

@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment variables & secrets (CRITICAL)
+.env
+.env.*
+!.env.example
+*/.env
+*/.env.*
+!*/.env.example
+
+# Python
+__pycache__/
+*/__pycache__/
+*/**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# Hardhat & Solidity artifacts
+backend/artifacts/
+backend/cache/
+artifacts/
+cache/
+
+# Uploads and temporary cache
+uploads/
+backend/uploads/
+*.log
+*.tmp
+
+# Vite / Frontend build
+frontend/dist/
+dist/
+
+# IDE & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
