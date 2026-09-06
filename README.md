@@ -1,10 +1,12 @@
-# HH Goa 2026: Face Identification & Blockchain Verification System
+# HH Goa 2026: Face Identification & Blockchain Verification System 
 
 A decentralized, end-to-end identity and biometric verification system built for the **HH Goa 2026 Shortlisting Task 3**.
 
 The platform extracts normalized biometric face embeddings using **InsightFace**, performs automated visual discovery via **Google Lens (SerpAPI)**, computes cosine similarity with extracted web candidates, generates cryptographic SHA-256 content hashes, and permanently registers verification proofs onto the **Polygon Amoy testnet** using a custom Solidity smart contract.
 
 ---
+
+
 
 ## 🌟 Key Features
 
@@ -17,6 +19,8 @@ The platform extracts normalized biometric face embeddings using **InsightFace**
 - **Cyberpunk Terminal UI**: Dark-mode, glassmorphism console with live step-by-step telemetry, scanner visualization, and system logs.
 
 ---
+
+
 
 ## 🏛️ Architecture
 
@@ -34,6 +38,9 @@ The platform extracts normalized biometric face embeddings using **InsightFace**
 ```
 
 ---
+
+
+
 
 ## 📦 Smart Contract Details
 
@@ -58,7 +65,6 @@ pip install -r requirements.txt
 python main.py
 # Runs on http://localhost:5001
 ```
-
 ### 2. Backend Orchestrator (Node.js Express)
 ```bash
 cd backend
